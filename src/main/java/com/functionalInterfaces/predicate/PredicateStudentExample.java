@@ -10,12 +10,12 @@ import java.util.stream.Collectors;
 
 public class PredicateStudentExample {
 
-    static Predicate<Student> p1 = (s) -> s.getGradeLevel() >= 3;
+    public static Predicate<Student> p1 = (s) -> s.getGradeLevel() >= 3;
 
-    static Predicate<Student> p2 = (s) -> s.getGpa() >= 3.9;
+    public static Predicate<Student> p2 = (s) -> s.getGpa() >= 3.9;
 
-    //static Function<Integer, Predicate<Integer>> gradePredicate = (toCompare) -> (number) -> number > toCompare;
-    //static Function<Double, Predicate<Double>> gpaPredicate = (toCompare) -> (number) -> number > toCompare;
+    static Function<Integer, Predicate<Integer>> gradePredicate = (toCompare) -> (number) -> number > toCompare;
+    static Function<Double, Predicate<Double>> gpaPredicate = (toCompare) -> (number) -> number > toCompare;
 
 
     public static void main(String[] args) {
