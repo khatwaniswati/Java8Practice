@@ -22,9 +22,8 @@ public class ImperativeVsDeclarativeExample1 {
         }
         LocalDateTime end = LocalDateTime.now();
         Duration diff = Duration.between(start, end);
-        long millis = diff.toMillis() ;
-        log.info("Sum is : {} in {} milliseconds",sum,millis);
-
+        long millis = diff.toMillis();
+        log.info("Sum is : {} in {} milliseconds", sum, millis);
 
 
         /**
@@ -39,8 +38,8 @@ public class ImperativeVsDeclarativeExample1 {
                 .sum();
         end = LocalDateTime.now();
         diff = Duration.between(start, end);
-        millis = diff.toMillis() ;
-        log.info("Sum is : {} in {} milliseconds",sum1,millis);
+        millis = diff.toMillis();
+        log.info("Sum is : {} in {} milliseconds", sum1, millis);
 
     }
 }
