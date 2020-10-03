@@ -9,10 +9,10 @@ import static java.util.stream.Collectors.toList;
 public class NumericStreamMapExample {
 
 
-    public static List<Integer> mapToObj(){
+    public static List<Integer> mapToObj() {
 
-        List<Integer> integerList = IntStream.rangeClosed(1,5)
-                .mapToObj((i)-> {
+        List<Integer> integerList = IntStream.rangeClosed(1, 5)
+                .mapToObj((i) -> {
                     return new Integer(i);
                 })
                 .collect(toList());
@@ -21,18 +21,18 @@ public class NumericStreamMapExample {
 
     }
 
-    public static double mapToDouble(){
+    public static double mapToDouble() {
 
-      return   IntStream.rangeClosed(1,5)
-                .mapToDouble((i) ->  i)
+        return IntStream.rangeClosed(1, 5)
+                .mapToDouble((i) -> i)
                 .sum();
 
     }
 
-    public static long mapToLong(){
+    public static long mapToLong() {
 
-        return   IntStream.rangeClosed(1,5)
-                .mapToLong((i) ->  i)
+        return IntStream.rangeClosed(1, 5)
+                .mapToLong((i) -> i)
                 .sum();
 
     }
