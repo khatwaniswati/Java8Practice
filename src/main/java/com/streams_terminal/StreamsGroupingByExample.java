@@ -118,10 +118,10 @@ public class StreamsGroupingByExample {
         //groupingByGender();
         //customizedGroupingBy();
         //twoLevelGrouping();
-        twoLevelGrouping_2();
+        //twoLevelGrouping_2();
         //twoLevelGrouping_3();
+        //threeArgumentGroupingBy();
         //calculteTopGpaStudentinEachGrade();
         //calculteleastGpaStudentinEachGrade();
-        // threeArgumentGroupingBy();
     }
 }
