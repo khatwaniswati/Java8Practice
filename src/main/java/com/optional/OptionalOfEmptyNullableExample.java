@@ -20,7 +20,6 @@ public class OptionalOfEmptyNullableExample {
     public static Optional<String> empty() {
 
         return Optional.empty();
-        // return  Optional.of(null);
 
     }
 
@@ -28,6 +27,6 @@ public class OptionalOfEmptyNullableExample {
 
         System.out.println(ofNullable().get());
         System.out.println(of());
-        System.out.println(empty().get());
+        System.out.println(empty());
     }
 }
