@@ -1,1 +1,5 @@
+*.class
 /Java8Practice.iml
+/.classpath
+/.factorypath
+/.project
