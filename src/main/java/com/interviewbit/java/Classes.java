@@ -12,7 +12,7 @@ public class Classes {
 		int b = inp.nextInt();
 		inp.close();
 
-		pair obj = new pair();
+		ClassesPair obj = new ClassesPair();
 		System.out.println(obj.first + obj.second);
 
 		System.out.println(a * obj.first);
@@ -23,11 +23,11 @@ public class Classes {
 	}
 }
 
-class pair {
+class ClassesPair {
 	int first;
 	int second;
 
-	public pair() {
+	public ClassesPair() {
 		this.first = 10;
 		this.second = 20;
 	}
